@@ -1,0 +1,2 @@
+# my_springboot
+自定义简易版SpringBoot，实现SpringBoot MVC及内嵌Tomcat启动、DispatcherServlet注册和组件扫描功能。  程序通过main方法启动，可以自动启动tomcat服务器  可以自动创建和加载DispatcherServlet组件到ServletContext中  可以自动通过@ComponentScan扫描Controller等组件  Controller组件可以处理浏览器请求，返回响应结果
